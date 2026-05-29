@@ -2,7 +2,7 @@ export default function LandingLoteos() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* HERO */}
-      <section className="bg-black text-white py-20 px-6">
+      <section className="bg-red-500 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="uppercase tracking-[4px] text-sm text-gray-400 mb-4">
