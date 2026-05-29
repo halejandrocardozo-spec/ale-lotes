@@ -81,108 +81,128 @@ export default function LandingLoteos() {
         </div>
       </section>
 
-      {/* PROYECTOS */}
-      <section id="proyectos" className="py-20 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14">
-            <h2 className="text-4xl font-bold mb-4">Proyectos destacados</h2>
-            <p className="text-gray-600 text-lg">
-              Elegí la zona que mejor se adapte a tu objetivo.
-            </p>
-          </div>
+     {/* PROYECTOS */}
+<section id="proyectos" className="py-20 px-6 bg-[#f5f7fa]">
+  <div className="max-w-6xl mx-auto">
+    <div className="text-center mb-14">
+      <h2 className="text-4xl font-bold mb-4 text-red-500">
+  HOLA FUNCIONA
+</h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
-              <img
-                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop"
-                alt="Mariano Acosta"
-                className="h-64 w-full object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Mariano Acosta</h3>
-                <p className="text-gray-600 mb-5">
-                  Barrio cerrado con seguridad privada, financiación en cuotas y
-                  lotes desde 700m².
-                </p>
-                <a
-                  href="https://wa.me/5491124010069"
-                  className="inline-block bg-black text-white px-6 py-3 rounded-xl font-semibold"
-                >
-                  Consultar
-                </a>
-              </div>
-            </div>
+      <p className="text-[#6b7280] text-lg">
+        Elegí la zona que mejor se adapte a tu objetivo.
+      </p>
+    </div>
 
-            <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
-              <img
-                src="https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1200&auto=format&fit=crop"
-                alt="Moreno"
-                className="h-64 w-full object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">Moreno</h3>
-                <p className="text-gray-600 mb-5">
-                  Lotes con escritura y cuotas accesibles en una zona en pleno
-                  desarrollo.
-                </p>
-                <a
-                  href="https://wa.me/5491124010069"
-                  className="inline-block bg-black text-white px-6 py-3 rounded-xl font-semibold"
-                >
-                  Consultar
-                </a>
-              </div>
-            </div>
+    <div className="grid md:grid-cols-3 gap-8">
+      
+      {/* CARD 1 */}
+      <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
+        <img
+          src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop"
+          alt="Mariano Acosta"
+          className="h-64 w-full object-cover"
+        />
 
-            <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
-              <img
-                src="https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1200&auto=format&fit=crop"
-                alt="General Rodríguez"
-                className="h-64 w-full object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3">General Rodríguez</h3>
-                <p className="text-gray-600 mb-5">
-                  Oportunidades ideales para inversión con acceso rápido y gran
-                  proyección.
-                </p>
-                <a
-                  href="https://wa.me/5491124010069"
-                  className="inline-block bg-black text-white px-6 py-3 rounded-xl font-semibold"
-                >
-                  Consultar
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <div className="p-6">
+          <h3 className="text-2xl font-bold mb-3 text-[#111827]">
+            Mariano Acosta
+          </h3>
 
-      {/* CTA */}
-      <section className="bg-black text-white py-20 px-6 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-5xl font-bold mb-6">
-            ¿Querés conocer opciones disponibles?
-          </h2>
-
-          <p className="text-gray-300 text-xl mb-10 leading-relaxed">
-            Te asesoro personalmente para encontrar el lote ideal según tu
-            presupuesto y objetivo.
+          <p className="text-[#6b7280] mb-5">
+            Barrio cerrado con seguridad privada, financiación en cuotas y
+            lotes desde 700m².
           </p>
 
           <a
             href="https://wa.me/5491124010069"
-            className="bg-white text-black px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 transition inline-block"
+            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
           >
-            Hablar por WhatsApp
+            Consultar
           </a>
         </div>
-      </section>
+      </div>
 
-      {/* FOOTER */}
-      <footer className="py-10 text-center text-gray-500 text-sm">
-        © 2026 Ale.Lotes — Todos los derechos reservados.
-      </footer>
+      {/* CARD 2 */}
+      <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
+        <img
+          src="https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1200&auto=format&fit=crop"
+          alt="Moreno"
+          className="h-64 w-full object-cover"
+        />
+
+        <div className="p-6">
+          <h3 className="text-2xl font-bold mb-3 text-[#111827]">
+            Moreno
+          </h3>
+
+          <p className="text-[#6b7280] mb-5">
+            Lotes con escritura y cuotas accesibles en una zona en pleno
+            desarrollo.
+          </p>
+
+          <a
+            href="https://wa.me/5491124010069"
+            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
+          >
+            Consultar
+          </a>
+        </div>
+      </div>
+
+      {/* CARD 3 */}
+      <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
+        <img
+          src="https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1200&auto=format&fit=crop"
+          alt="General Rodríguez"
+          className="h-64 w-full object-cover"
+        />
+
+        <div className="p-6">
+          <h3 className="text-2xl font-bold mb-3 text-[#111827]">
+            General Rodríguez
+          </h3>
+
+          <p className="text-[#6b7280] mb-5">
+            Oportunidades ideales para inversión con acceso rápido y gran
+            proyección.
+          </p>
+
+          <a
+            href="https://wa.me/5491124010069"
+            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
+          >
+            Consultar
+          </a>
+        </div>
+      </div>
+
     </div>
-  );
-}
+  </div>
+</section>
+
+{/* CTA */}
+<section className="bg-[#00bcd4] text-white py-20 px-6 text-center">
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-5xl font-bold mb-6">
+      ¿Querés conocer opciones disponibles?
+    </h2>
+
+    <p className="text-white/90 text-xl mb-10 leading-relaxed">
+      Te asesoro personalmente para encontrar el lote ideal según tu
+      presupuesto y objetivo.
+    </p>
+
+    <a
+      href="https://wa.me/5491124010069"
+      className="bg-white text-[#00bcd4] px-10 py-5 rounded-2xl text-lg font-bold hover:scale-105 transition inline-block"
+    >
+      Hablar por WhatsApp
+    </a>
+  </div>
+</section>
+
+{/* FOOTER */}
+<footer className="py-10 text-center text-[#6b7280] text-sm bg-[#f5f7fa]">
+  © 2026 Ale.Lotes — Todos los derechos reservados.
+</footer>
