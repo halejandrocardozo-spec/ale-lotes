@@ -2,10 +2,10 @@ export default function LandingLoteos() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* HERO */}
-      <section className="bg-red-500 text-white py-20 px-6">
+      <section className="bg-[#111111] text-white py-20 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <p className="uppercase tracking-[4px] text-sm text-gray-400 mb-4">
+            <p className="uppercase tracking-[4px] text-sm text-cyan-400 mb-4">
               Ale.Lotes
             </p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
@@ -20,14 +20,14 @@ export default function LandingLoteos() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="https://wa.me/5491124010069"
-                className="bg-white text-black px-8 py-4 rounded-2xl font-semibold text-center hover:scale-105 transition"
+                className="bg-cyan-400 text-black px-8 py-4 rounded-2xl font-semibold text-center hover:bg-cyan-300 transition"
               >
                 Consultar por WhatsApp
               </a>
 
               <a
                 href="#proyectos"
-                className="border border-white px-8 py-4 rounded-2xl font-semibold text-center hover:bg-white hover:text-black transition"
+                className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-2xl font-semibold text-center hover:bg-cyan-400 hover:text-black transition"
               >
                 Ver proyectos
               </a>
@@ -86,7 +86,7 @@ export default function LandingLoteos() {
   <div className="max-w-6xl mx-auto">
     <div className="text-center mb-14">
       <h2 className="text-4xl font-bold mb-4 text-red-500">
-  HOLA FUNCIONA
+
 </h2>
 
       <p className="text-[#6b7280] text-lg">
