@@ -2,48 +2,57 @@ export default function LandingLoteos() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       {/* HERO */}
-      <section className="bg-[#111111] text-white py-20 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-          <div>
-            <p className="uppercase tracking-[4px] text-sm text-cyan-400 mb-4">
-              Ale.Lotes
-            </p>
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-              Tu lote propio en cuotas.
-            </h1>
-            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Loteos en Mariano Acosta, Moreno y General Rodríguez.
-              Barrios abiertos y cerrados con financiación accesible,
-              escritura y excelente ubicación.
-            </p>
+<section
+  className="relative min-h-screen flex items-center px-6 overflow-hidden"
+  style={{
+    backgroundImage: "url('/lote3.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* OSCURECER IMAGEN */}
+  <div className="absolute inset-0 bg-black/45"></div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="https://wa.me/5491124010069"
-                className="bg-cyan-400 text-black px-8 py-4 rounded-2xl font-semibold text-center hover:bg-cyan-300 transition"
-              >
-                Consultar por WhatsApp
-              </a>
+  {/* CONTENIDO */}
+  <div className="relative z-10 max-w-6xl mx-auto w-full">
+    <div className="max-w-2xl">
+      
+      <p className="uppercase tracking-[4px] text-sm text-cyan-300 mb-6">
+        ALE.LOTES
+      </p>
 
-              <a
-                href="#proyectos"
-                className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-2xl font-semibold text-center hover:bg-cyan-400 hover:text-black transition"
-              >
-                Ver proyectos
-              </a>
-            </div>
-          </div>
+      <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-white">
+        Tu lote propio,
+        <br />
+        financiado en cuotas
+      </h1>
 
-          <div>
-            <img
-              src="/lote3.jpg"
-              alt="Loteos"
-              className="rounded-3xl shadow-2xl h-[500px] w-full object-cover"
-            />
-          </div>
-        </div>
-      </section>
+      <p className="text-xl text-gray-200 mb-10 leading-relaxed">
+        Loteos en Mariano Acosta, Moreno y General Rodríguez.
+        Barrios abiertos y cerrados con financiación accesible,
+        escritura y excelente ubicación.
+      </p>
 
+      <div className="flex flex-col sm:flex-row gap-5">
+        
+        <a
+          href="https://wa.me/5491124010069"
+          className="bg-cyan-400 hover:bg-cyan-300 text-black font-bold px-10 py-5 rounded-full transition"
+        >
+          Consultar
+        </a>
+
+        <a
+          href="#proyectos"
+          className="border-2 border-white text-white hover:bg-white hover:text-black font-bold px-10 py-5 rounded-full transition"
+        >
+          Ver proyectos
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
       {/* BENEFICIOS */}
       <section className="py-20 px-6 bg-gray-100">
         <div className="max-w-6xl mx-auto text-center mb-14">
@@ -85,8 +94,8 @@ export default function LandingLoteos() {
 <section id="proyectos" className="py-20 px-6 bg-[#f5f7fa]">
   <div className="max-w-6xl mx-auto">
     <div className="text-center mb-14">
-      <h2 className="text-4xl font-bold mb-4 text-red-500">
-
+      <h2 className="text-4xl font-bold mb-4 text-[#111827]">
+  Proyectos destacados
 </h2>
 
       <p className="text-[#6b7280] text-lg">
@@ -205,4 +214,6 @@ export default function LandingLoteos() {
 {/* FOOTER */}
 <footer className="py-10 text-center text-[#6b7280] text-sm bg-[#f5f7fa]">
   © 2026 Ale.Lotes — Todos los derechos reservados.
-</footer>
+</footer>    </div>
+  )
+}
