@@ -1,60 +1,86 @@
 export default function LandingLoteos() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
-      {/* HERO */}
-<section
-  className="relative min-h-screen flex items-center px-6 overflow-hidden"
-  style={{
-    backgroundImage: "url('/lote3.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
+{/* NAVBAR */}
+<header className="absolute top-0 left-0 w-full z-50">
+  <div className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
+
+    <img
+  src="/logo.png"
+  alt="Ale Lotes"
+  className="h-28 md:h-32 w-auto"
+/>
+
+    <nav className="hidden md:flex gap-8 text-white font-medium">
+      <a href="#proyectos" className="hover:text-cyan-400 transition">
+        Proyectos
+      </a>
+
+      <a href="#beneficios" className="hover:text-cyan-400 transition">
+        Beneficios
+      </a>
+
+      <a href="https://wa.me/5491124010069" className="hover:text-cyan-400 transition">
+        Contacto
+      </a>
+    </nav>
+
+  </div>
+</header>
+{/* HERO */}
+<section className="relative h-screen overflow-hidden">
+
+  {/* IMAGEN DE FONDO */}
+  <img
+    src="/lote3.jpg"
+    alt="Loteos"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
   {/* OSCURECER IMAGEN */}
   <div className="absolute inset-0 bg-black/45"></div>
 
   {/* CONTENIDO */}
-  <div className="relative z-10 max-w-6xl mx-auto w-full">
-    <div className="max-w-2xl">
-      
-      <p className="uppercase tracking-[4px] text-sm text-cyan-300 mb-6">
-        ALE.LOTES
-      </p>
+  <div className="relative z-10 max-w-7xl mx-auto h-full flex items-center px-6 pt-10">
+    
+    <div className="max-w-3xl">
 
-      <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 text-white">
-        Tu lote propio,
-        <br />
-        financiado en cuotas
-      </h1>
+      <h1 className="text-5xl md:text-7xl font-black leading-[0.95] text-white mb-8">
+  Tu terreno propio,
+  <br />
+  en cuotas
+  <br />
+  accesibles
+</h1>
 
-      <p className="text-xl text-gray-200 mb-10 leading-relaxed">
-        Loteos en Mariano Acosta, Moreno y General Rodríguez.
-        Barrios abiertos y cerrados con financiación accesible,
-        escritura y excelente ubicación.
-      </p>
+      <p className="text-xl text-white/90 leading-relaxed mb-10 max-w-2xl">
+  Lotes en Moreno, Escobar y General Rodríguez.
+  Financiación en cuotas, excelente ubicación
+  y oportunidades reales de inversión.
+</p>
 
       <div className="flex flex-col sm:flex-row gap-5">
-        
         <a
           href="https://wa.me/5491124010069"
-          className="bg-cyan-400 hover:bg-cyan-300 text-black font-bold px-10 py-5 rounded-full transition"
+          className="bg-cyan-400 hover:bg-cyan-300 text-black px-10 py-5 rounded-full font-bold text-lg transition"
         >
           Consultar
         </a>
 
         <a
           href="#proyectos"
-          className="border-2 border-white text-white hover:bg-white hover:text-black font-bold px-10 py-5 rounded-full transition"
+          className="border-2 border-white text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-black transition"
         >
           Ver proyectos
         </a>
-
       </div>
+
     </div>
   </div>
 </section>
+
       {/* BENEFICIOS */}
-      <section className="py-20 px-6 bg-gray-100">
+      <section id="beneficios" className="py-20 px-6 bg-gray-100">
         <div className="max-w-6xl mx-auto text-center mb-14">
           <h2 className="text-4xl font-bold mb-4">
             ¿Por qué elegir nuestros loteos?
@@ -109,25 +135,25 @@ export default function LandingLoteos() {
       <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
         <img
           src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop"
-          alt="Mariano Acosta"
+          alt="Escobar"
           className="h-64 w-full object-cover"
         />
 
         <div className="p-6">
           <h3 className="text-2xl font-bold mb-3 text-[#111827]">
-            Mariano Acosta
+            Escobar
           </h3>
 
           <p className="text-[#6b7280] mb-5">
-            Barrio cerrado con seguridad privada, financiación en cuotas y
-            lotes desde 700m².
-          </p>
+  Lotes abiertos con financiación flexible,
+  excelente acceso y gran crecimiento en la zona.
+</p>
 
           <a
             href="https://wa.me/5491124010069"
             className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
           >
-            Consultar
+            Consultar por WhatsApp
           </a>
         </div>
       </div>
@@ -154,7 +180,7 @@ export default function LandingLoteos() {
             href="https://wa.me/5491124010069"
             className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
           >
-            Consultar
+            Consultar por WhatsApp
           </a>
         </div>
       </div>
@@ -181,7 +207,7 @@ export default function LandingLoteos() {
             href="https://wa.me/5491124010069"
             className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
           >
-            Consultar
+            Consultar por WhatsApp
           </a>
         </div>
       </div>
@@ -214,6 +240,8 @@ export default function LandingLoteos() {
 {/* FOOTER */}
 <footer className="py-10 text-center text-[#6b7280] text-sm bg-[#f5f7fa]">
   © 2026 Ale.Lotes — Todos los derechos reservados.
-</footer>    </div>
+</footer>
+
+</div>
   )
 }
