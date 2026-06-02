@@ -115,7 +115,66 @@ export default function LandingLoteos() {
           </div>
         </div>
       </section>
+{/* COMO FUNCIONA */}
+<section className="py-20 px-6 bg-white">
+  <div className="max-w-6xl mx-auto">
 
+    <div className="text-center mb-14">
+      <h2 className="text-4xl font-bold mb-4">
+        ¿Cómo funciona?
+      </h2>
+
+      <p className="text-gray-600 text-lg">
+        Accedé a tu lote con financiación propia y sin trámites bancarios.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-4 gap-8">
+
+      <div className="bg-gray-100 p-6 rounded-3xl">
+        <div className="text-4xl font-black text-cyan-500 mb-4">1</div>
+        <h3 className="font-bold text-xl mb-3">
+          Reservá tu lote
+        </h3>
+        <p className="text-gray-600">
+          Reservas desde valores accesibles según la zona elegida.
+        </p>
+      </div>
+
+      <div className="bg-gray-100 p-6 rounded-3xl">
+        <div className="text-4xl font-black text-cyan-500 mb-4">2</div>
+        <h3 className="font-bold text-xl mb-3">
+          Elegí tu financiación
+        </h3>
+        <p className="text-gray-600">
+          Planes de hasta 240 cuotas con financiación a sola firma.
+        </p>
+      </div>
+
+      <div className="bg-gray-100 p-6 rounded-3xl">
+        <div className="text-4xl font-black text-cyan-500 mb-4">3</div>
+        <h3 className="font-bold text-xl mb-3">
+          Tomá posesión
+        </h3>
+        <p className="text-gray-600">
+          La posesión se entrega al alcanzar el 25% abonado.
+        </p>
+      </div>
+
+      <div className="bg-gray-100 p-6 rounded-3xl">
+        <div className="text-4xl font-black text-cyan-500 mb-4">4</div>
+        <h3 className="font-bold text-xl mb-3">
+          Seguís pagando
+        </h3>
+        <p className="text-gray-600">
+          Completá el plan de cuotas elegido y avanzá hacia tu inversión.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
      {/* PROYECTOS */}
 <section id="proyectos" className="py-20 px-6 bg-[#f5f7fa]">
   <div className="max-w-6xl mx-auto">
@@ -144,17 +203,30 @@ export default function LandingLoteos() {
             Escobar
           </h3>
 
-          <p className="text-[#6b7280] mb-5">
-  Lotes abiertos con financiación flexible,
-  excelente acceso y gran crecimiento en la zona.
+         <p className="text-[#6b7280] mb-4">
+  Cerro Rico 1, Cerro Rico 2 y Cerro Rico 3.
 </p>
 
+<div className="mb-5">
+  <p className="font-bold text-cyan-600">
+    Reservas desde $4.191.600
+  </p>
+
+  <p className="font-bold text-cyan-600">
+    Cuotas desde $249.500
+  </p>
+
+  <p className="text-gray-500">
+    Hasta 240 cuotas
+  </p>
+</div>
+
           <a
-            href="https://wa.me/5491124010069"
-            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
-          >
-            Consultar por WhatsApp
-          </a>
+  href="/Escobar"
+  className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
+>
+  Ver desarrollos
+</a>
         </div>
       </div>
 
@@ -171,17 +243,30 @@ export default function LandingLoteos() {
             Moreno
           </h3>
 
-          <p className="text-[#6b7280] mb-5">
-            Lotes con escritura y cuotas accesibles en una zona en pleno
-            desarrollo.
-          </p>
+          <p className="text-[#6b7280] mb-4">
+  Parque Central y Las Magnolias.
+</p>
+
+<div className="mb-5">
+  <p className="font-bold text-cyan-600">
+    Reservas desde $4.639.232
+  </p>
+
+  <p className="font-bold text-cyan-600">
+    Cuotas desde $276.144
+  </p>
+
+  <p className="text-gray-500">
+    Hasta 240 cuotas
+  </p>
+</div>
 
           <a
-            href="https://wa.me/5491124010069"
-            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
-          >
-            Consultar por WhatsApp
-          </a>
+  href="/Moreno"
+  className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
+>
+  Ver desarrollos
+</a>
         </div>
       </div>
 
@@ -198,17 +283,30 @@ export default function LandingLoteos() {
             General Rodríguez
           </h3>
 
-          <p className="text-[#6b7280] mb-5">
-            Oportunidades ideales para inversión con acceso rápido y gran
-            proyección.
-          </p>
+          <p className="text-[#6b7280] mb-4">
+  Nuevo Horizonte, Nuevo Amanecer y Pinares del Casco.
+</p>
+
+<div className="mb-5">
+  <p className="font-bold text-cyan-600">
+    Reservas desde $3.062.265
+  </p>
+
+  <p className="font-bold text-cyan-600">
+    Cuotas desde $182.277
+  </p>
+
+  <p className="text-gray-500">
+    Hasta 240 cuotas
+  </p>
+</div>
 
           <a
-            href="https://wa.me/5491124010069"
-            className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
-          >
-            Consultar por WhatsApp
-          </a>
+  href="/GeneralRodriguez"
+  className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-6 py-3 rounded-xl font-semibold transition"
+>
+  Ver desarrollos
+</a>
         </div>
       </div>
 
