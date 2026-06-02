@@ -8,73 +8,77 @@ export default function EscobarPage() {
         </h1>
 
         <p className="text-xl">
-          Conocé todos los proyectos disponibles.
+          Elegí el proyecto que querés conocer.
         </p>
       </section>
 
       <section className="max-w-6xl mx-auto py-16 px-6">
 
-        <div className="bg-white shadow-xl rounded-3xl p-8 mb-8">
-          <h2 className="text-3xl font-bold mb-4">
-            Cerro Rico 1
-          </h2>
+        <div className="grid md:grid-cols-3 gap-8">
 
-          <p className="text-gray-600 mb-3">
-            Reserva desde $4.191.600
-          </p>
+          <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
+            <img
+              src="/cerro-rico-1.jpg"
+              alt="Cerro Rico 1"
+              className="w-full h-64 object-cover"
+            />
 
-          <p className="text-gray-600 mb-6">
-            Cuotas desde $249.500
-          </p>
+            <div className="p-6">
+              <h2 className="text-3xl font-bold mb-4">
+                Cerro Rico 1
+              </h2>
 
-          <a
-            href="https://wa.me/5491124010069"
-            className="bg-cyan-500 text-white px-6 py-3 rounded-xl inline-block"
-          >
-            Consultar por WhatsApp
-          </a>
-        </div>
+              <a
+                href="/Escobar/CerroRico1"
+                className="bg-cyan-500 text-white px-6 py-3 rounded-xl inline-block"
+              >
+                Ver proyecto
+              </a>
+            </div>
+          </div>
 
-        <div className="bg-white shadow-xl rounded-3xl p-8 mb-8">
-          <h2 className="text-3xl font-bold mb-4">
-            Cerro Rico 2
-          </h2>
+          <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
+            <img
+              src="/cerro-rico-2.jpg"
+              alt="Cerro Rico 2"
+              className="w-full h-64 object-cover"
+            />
 
-          <p className="text-gray-600 mb-3">
-            Reserva desde $4.191.600
-          </p>
+            <div className="p-6">
+              <h2 className="text-3xl font-bold mb-4">
+                Cerro Rico 2
+              </h2>
 
-          <p className="text-gray-600 mb-6">
-            Cuotas desde $249.500
-          </p>
+              <a
+                href="/Escobar/CerroRico2"
+                className="bg-cyan-500 text-white px-6 py-3 rounded-xl inline-block"
+              >
+                Ver proyecto
+              </a>
+            </div>
+          </div>
 
-          <a
-            href="https://wa.me/5491124010069"
-            className="bg-cyan-500 text-white px-6 py-3 rounded-xl inline-block"
-          >
-            Consultar por WhatsApp
-          </a>
-        </div>
+          <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
+            <img
+              src="/cerro-rico-3.jpg"
+              alt="Cerro Rico 3"
+              className="w-full h-64 object-cover"
+            />
 
-        <div className="bg-white shadow-xl rounded-3xl p-8">
-          <h2 className="text-3xl font-bold mb-4">
-            Cerro Rico 3
-          </h2>
+            <div className="p-6">
+              <h2 className="text-3xl font-bold mb-4">
+                Cerro Rico 3
+              </h2>
 
-          <p className="text-gray-600 mb-3">
-            Reserva desde $4.191.600
-          </p>
+              <a
+                href="/Escobar/CerroRico3"
+                className="bg-cyan-500 text-white px-6 py-3 rounded-xl inline-block"
+              >
+                Ver proyecto
+              </a>
+            </div>
+          </div>
 
-          <p className="text-gray-600 mb-6">
-            Cuotas desde $249.500
-          </p>
-
-          <a
-            href="https://wa.me/5491124010069"
-            className="bg-cyan-500 text-white px-6 py-3 rounded-xl inline-block"
-          >
-            Consultar por WhatsApp
-          </a>
         </div>
 
       </section>
