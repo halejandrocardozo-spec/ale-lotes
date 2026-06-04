@@ -2,100 +2,211 @@ export default function LasMagnoliasPage() {
   return (
     <div className="min-h-screen bg-white">
 
-      {/* HERO */}
-      <section className="relative h-screen">
+      {/* HEADER */}
+      <header className="bg-cyan-500 text-white py-6 px-6">
+        <div className="max-w-6xl mx-auto flex justify-between items-center">
 
+          <a
+            href="/"
+            className="bg-white text-cyan-600 px-5 py-2 rounded-xl font-bold"
+          >
+            Inicio
+          </a>
+
+          <a
+            href="/Contacto"
+            className="bg-white text-cyan-600 px-5 py-2 rounded-xl font-bold"
+          >
+            Más información
+          </a>
+
+        </div>
+      </header>
+
+      {/* HERO */}
+      <section className="relative h-screen overflow-hidden">
         <img
-          src="/lote4.jpg"
+          src="/LM1.jpg"
           alt="Las Magnolias"
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-black/40"></div>
-
-        <div
-          style={{
-            position: "absolute",
-            top: "12%",
-            left: 0,
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            zIndex: 20,
-          }}
-        >
-          <h1
-            style={{
-              color: "white",
-              fontSize: "90px",
-              fontWeight: "900",
-              textShadow: "0 4px 15px rgba(0,0,0,0.5)",
-            }}
-          >
-            Las Magnolias
-          </h1>
-        </div>
-
+        <div className="absolute inset-0 bg-black/10"></div>
       </section>
 
-      {/* INFORMACIÓN */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      {/* DESCRIPCIÓN */}
+      <section className="py-20 px-6">
+        <div className="max-w-5xl mx-auto">
 
-        <h2 className="text-4xl font-bold mb-8">
-          Información del proyecto
-        </h2>
+          <h2 className="text-4xl font-bold mb-8">
+            Sobre el desarrollo
+          </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Las Magnolias se ubica en Moreno, sobre calle Palma y Ruta 24,
+            a solo 40 km de Capital Federal y a 2 km del Acceso Oeste,
+            combinando excelente ubicación con un entorno tranquilo.
+          </p>
 
-          <div className="bg-gray-100 rounded-3xl p-8">
-            <h3 className="text-2xl font-bold mb-4">
-              Ubicación
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Ofrecemos lotes de 800 a 900 m² con financiación propia
+            de hasta 240 cuotas en pesos y valores accesibles.
+          </p>
+
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Un espacio pensado para quienes buscan amplitud, privacidad
+            y contacto con la naturaleza, ideal para proyectar una casa
+            con más lugar y comodidad.
+          </p>
+
+        </div>
+      </section>
+
+      {/* DATOS DESTACADOS */}
+      <section className="bg-gray-100 py-20 px-6">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+
+          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
+            <h3 className="text-4xl font-bold text-cyan-500 mb-3">
+              800-900
             </h3>
-
             <p className="text-gray-600">
-              Moreno, Buenos Aires.
+              m² por lote
             </p>
           </div>
 
-          <div className="bg-gray-100 rounded-3xl p-8">
-            <h3 className="text-2xl font-bold mb-4">
-              Financiación
+          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
+            <h3 className="text-4xl font-bold text-cyan-500 mb-3">
+              2 km
             </h3>
-
             <p className="text-gray-600">
-              Próximamente.
+              del Acceso Oeste
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl p-8 shadow-lg text-center">
+            <h3 className="text-4xl font-bold text-cyan-500 mb-3">
+              240
+            </h3>
+            <p className="text-gray-600">
+              cuotas disponibles
             </p>
           </div>
 
         </div>
+      </section>
 
+      {/* BENEFICIOS */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-4xl font-bold text-center mb-14">
+            ¿Qué hace especial a Las Magnolias?
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+
+            <div className="bg-white shadow-lg rounded-3xl p-8">
+              <h3 className="text-2xl font-bold mb-4">
+                Financiación propia
+              </h3>
+              <p className="text-gray-600">
+                Hasta 240 cuotas en pesos, sin bancos ni intermediarios.
+              </p>
+            </div>
+
+            <div className="bg-white shadow-lg rounded-3xl p-8">
+              <h3 className="text-2xl font-bold mb-4">
+                Infraestructura sólida
+              </h3>
+              <p className="text-gray-600">
+                Desarrollamos toda la infraestructura para disfrutar tu lote.
+              </p>
+            </div>
+
+            <div className="bg-white shadow-lg rounded-3xl p-8">
+              <h3 className="text-2xl font-bold mb-4">
+                Naturaleza y ubicación
+              </h3>
+              <p className="text-gray-600">
+                Entorno natural con cercanía a la ciudad.
+              </p>
+            </div>
+
+            <div className="bg-white shadow-lg rounded-3xl p-8">
+              <h3 className="text-2xl font-bold mb-4">
+                Barrio abierto
+              </h3>
+              <p className="text-gray-600">
+                Sin expensas y con código de construcción.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
       </section>
 
       {/* GALERÍA */}
-      <section className="max-w-6xl mx-auto px-6 pb-20">
+      <section className="bg-gray-100 py-20 px-6">
+        <div className="max-w-6xl mx-auto">
 
-        <h2 className="text-4xl font-bold mb-8">
-          Galería
-        </h2>
+          <h2 className="text-4xl font-bold text-center mb-14">
+            Galería
+          </h2>
 
-        <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
 
-          <div className="h-64 bg-gray-200 rounded-3xl flex items-center justify-center">
-            Próximamente
-          </div>
+            <img src="/LM1.jpg" className="rounded-3xl h-80 w-full object-cover" />
+            <img src="/LM2.jpg" className="rounded-3xl h-80 w-full object-cover" />
+            <img src="/LM3.jpg" className="rounded-3xl h-80 w-full object-cover" />
+            <img src="/LM4.jpg" className="rounded-3xl h-80 w-full object-cover" />
 
-          <div className="h-64 bg-gray-200 rounded-3xl flex items-center justify-center">
-            Próximamente
-          </div>
-
-          <div className="h-64 bg-gray-200 rounded-3xl flex items-center justify-center">
-            Próximamente
           </div>
 
         </div>
+      </section>
+
+      {/* UBICACIÓN */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-4xl font-bold text-center mb-10">
+            Ubicación
+          </h2>
+
+          <div className="overflow-hidden rounded-3xl shadow-xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2305.570097400896!2d-58.88355332028362!3d-34.578168659343476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2sar!4v1780605901315!5m2!1ses-419!2sar"
+              width="100%"
+              height="500"
+              loading="lazy"
+            ></iframe>
+          </div>
+
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-cyan-500 text-white py-20 px-6 text-center">
+
+        <h2 className="text-4xl font-bold mb-6">
+          ¿Querés recibir más información?
+        </h2>
+
+        <p className="text-xl mb-8">
+          Completá el formulario y te contactaremos a la brevedad.
+        </p>
+
+        <a
+          href="/Contacto"
+          className="bg-white text-cyan-600 px-8 py-4 rounded-2xl font-bold inline-block"
+        >
+          Solicitar información
+        </a>
 
       </section>
 
     </div>
-  );
+  )
 }
